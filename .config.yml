@@ -1,0 +1,7 @@
+app:
+  env: dev
+  web: 0.0.0.0:8080
+log:
+  level: debug
+mysql:
+  url: root:123456@tcp(127.0.0.1:13306)/go?charset=utf8&parseTime=True&loc=Local
